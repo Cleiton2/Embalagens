@@ -4,6 +4,7 @@ O uso pode ser através do swagger ou plataforma de testes e desenvolvimento de 
 
 🚀 Começando
 Para executar, é necessário apeas exeutar o comando "docker-compose up --build", na raiz do projeto.
+Link, do build: [http:](http://localhost:5000/swagger/index.html)
 
 📋 Pré-requisitos
 Docker
