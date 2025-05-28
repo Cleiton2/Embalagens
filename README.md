@@ -1,5 +1,5 @@
 Embalagens
-Microserviço destinada para organização de produtos em caixas adequadas a seu respectivo tamanho, feito totalmente em C#.
+Microserviço destinada para organização de produtos em caixas adequadas a seu respectivo tamanho, feito em C#.
 O uso pode ser através do swagger ou plataforma de testes e desenvolvimento de APIs, como postman, insomnia, etc...
 
 🚀 Começando
