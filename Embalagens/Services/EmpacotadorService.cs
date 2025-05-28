@@ -24,9 +24,9 @@ public class EmpacotadorService : IEmpacotadorService
 
     private static List<CaixaModel> EmpacotarProdutos(List<ProdutoModel> produtos, List<CaixaModel> caixasDisponiveis)
     {
-        var caixasUsadas = new List<CaixaModel>();
+        List<CaixaModel> caixasUsadas = [];
 
-        foreach (var produto in produtos)
+        foreach (ProdutoModel produto in produtos)
         {
             CaixaModel? caixaExistente = caixasUsadas
                 .Where(c => c.Observacao == null)

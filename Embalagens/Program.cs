@@ -1,4 +1,5 @@
 using Embalagens.Data;
+using Embalagens.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,7 +9,7 @@ builder.Services.AddDbContext<EmbalagensDbContext>(options =>
 // Add services to the container.
 
 builder.Services.AddControllers();
-builder.Services.AddScoped<EmpacotadorService>();
+builder.Services.AddScoped<IEmpacotadorService, EmpacotadorService>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 

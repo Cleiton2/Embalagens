@@ -23,8 +23,7 @@ namespace Embalagens.Controllers
 
             try
             {
-                var resultado = _empacotadorService.Empacotar(pedidoModel);
-                return Ok(resultado);
+                return Ok(_empacotadorService.Empacotar(pedidoModel));
             }
             catch (Exception ex)
             {
